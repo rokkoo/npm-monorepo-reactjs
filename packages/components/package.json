@@ -1,0 +1,17 @@
+{
+  "name": "@alfonso/ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Components for Rebellion pay lading pages",
+  "author": "Alfonso Lasa",
+  "license": "MIT",
+  "module": "build/ui.bundle.min.js",
+  "scripts": {
+    "lint": "eslint --ext .jsx,.js src",
+    "build": "webpack --config webpack.prod.js",
+    "build-watch": "webpack --config webpack.prod.js --watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
+  }
+}
